@@ -1,0 +1,39 @@
+version: 2
+
+sources:
+  - name: main
+    tables:
+      - name: lake
+        columns:
+          - name: Rank
+            tests:
+              - not_null
+              - unique
+          - name: Name
+            tests:
+              - not_null
+          - name: Platform
+            tests:
+              - not_null
+          - name: Year
+          - name: Genre
+            tests:
+              - not_null
+          - name: Publisher
+            tests:
+              - not_null
+          - name: NA_Sales
+            tests:
+              - not_null
+          - name: EU_Sales
+            tests:
+              - not_null
+          - name: JP_Sales
+            tests:
+              - not_null
+          - name: Other_Sales
+            tests:
+              - not_null
+          - name: Global_Sales
+            tests:
+              - not_null

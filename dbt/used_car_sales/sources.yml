@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: main
+    tables:
+      - name: lake
+        columns:
+          - name: ID
+            tests:
+              - not_null
+              - unique
+          - name: pricesold
+          - name: yearsold
+          - name: zipcode
+          - name: Mileage
+          - name: Make
+          - name: Model
+          - name: Year
+          - name: Engine
+          - name: BodyType
+          - name: NumCylinders
+          - name: DriveType
