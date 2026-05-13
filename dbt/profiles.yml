@@ -1,0 +1,23 @@
+used_car_sales:
+  outputs:
+    dev:
+      type: duckdb
+      path: /root/data/duckdb/used_car_sales.db
+      threads: 1
+  target: dev
+
+netflix_shows:
+  outputs:
+    dev:
+      type: duckdb
+      path: /root/data/duckdb/netflix_shows.db
+      threads: 1
+  target: dev
+
+video_game_sales:
+  outputs:
+    dev:
+      type: duckdb
+      path: /root/data/duckdb/video_game_sales.db
+      threads: 1
+  target: dev
